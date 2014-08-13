@@ -43,9 +43,6 @@ PRODUCT_PACKAGES += \
     nfc_nci.bacon \
     com.android.nfc_extras
 
-PRODUCT_COPY_FILES += \
-    device/oneplus/bacon/configs/00_frandom:system/etc/init.d/00_frandom
-
 # NFC access control + feature files + configuration
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.android.nfc_extras.xml:system/etc/permissions/com.android.nfc_extras.xml \
