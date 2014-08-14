@@ -36,21 +36,21 @@
     "revision": "kitkat"
   },
   {
-    "remote": "gh",
-    "repository": "TheLoonyBin/proprietary_vendor_oneplus",
+    "remote": "tm",
+    "repository": "proprietary_vendor_oneplus",
     "target_path": "vendor/oneplus",
-    "revision": "kk4.4"
+    "revision": "cm-11.0"
   },
   {
-    "remote": "gh",
-    "repository": "TheLoonyBin/proprietary_vendor_oppo",
+    "remote": "tm",
+    "repository": "proprietary_vendor_oppo",
     "target_path": "vendor/oppo",
-    "revision": "kk4.4"
+    "revision": "cm-11.0"
   },
   {
-    "remote": "sr",
+    "remote": "cm",
     "repository": "frameworks_opt_connectivity",
     "target_path": "frameworks/opt/connectivity",
-    "revision": "kk4.4"
+    "revision": "cm-11.0"
   }
 ]
