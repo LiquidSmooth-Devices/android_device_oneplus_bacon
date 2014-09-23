@@ -44,7 +44,7 @@ PRODUCT_PACKAGES += \
     com.android.nfc_extras
 
 PRODUCT_COPY_FILES += \
-    device/oneplus/bacon/configs/00_frandom:system/etc/init.d/00_frandom
+    $(LOCAL_PATH)/configs/00_frandom:system/etc/init.d/00_frandom
 
 # NFC access control + feature files + configuration
 PRODUCT_COPY_FILES += \
@@ -54,6 +54,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     $(LOCAL_PATH)/configs/libnfc-brcm.conf:system/etc/libnfc-brcm.conf
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/format-system.sh:system/extras/format-system.sh
 
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/oneplus/bacon/bacon-vendor.mk)
