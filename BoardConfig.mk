@@ -25,6 +25,9 @@ BOARD_CUSTOM_BOOTIMG_MK := device/oneplus/bacon/mkbootimg.mk
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.8-sm
 TARGET_GCC_VERSION_AND := 4.8-sm
 
+# Enable ArchiDroid Optimizations
+USE_ARCH_OPTIMIZATIONS=true
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/oneplus/bacon/bluetooth
 
