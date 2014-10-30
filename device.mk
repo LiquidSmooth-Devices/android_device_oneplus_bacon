@@ -22,6 +22,7 @@ PRODUCT_CHARACTERISTICS := nosdcard
 
 # Ramdisk
 PRODUCT_PACKAGES += \
+    libinit_bacon \
     fstab.bacon \
     init.bacon.rc \
     init.qcom.usb.rc \
@@ -31,11 +32,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_policy.conf:system/etc/audio_policy.conf \
     $(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths.xml
-
-# Keylayouts
-PRODUCT_PACKAGES += \
-    $(LOCAL_PATH)/keylayout/atmel_mxt_ts.kl:system/usr/keylayout/atmel_mxt_ts.kl \
-    $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
 
 # NFC packages
 PRODUCT_PACKAGES += \
