@@ -19,7 +19,8 @@
 
 # Kernel
 TARGET_KERNEL_CONFIG := liquid_bacon_defconfig
-BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=bacon user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3
+TARGET_KERNEL_CONFIG := cyanogenmod_bacon_defconfig
+BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=bacon user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3 androidboot.selinux=permissive
 
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.8-sm
 TARGET_GCC_VERSION_AND := 4.8-sm
