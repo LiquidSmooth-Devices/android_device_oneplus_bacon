@@ -18,28 +18,10 @@
     "revision": "cm-12.0"
   },
   {
-    "remote": "cm",
-    "repository": "android_hardware_qcom_display",
-    "target_path": "hardware/qcom/display-caf/msm8974",
-    "revision": "cm-12.0-caf-8974"
-  },
-  {
-    "remote": "cm",
-    "repository": "android_hardware_qcom_audio",
-    "target_path": "hardware/qcom/audio/default",
-    "revision": "cm-12.0-caf-8974"
-  },
-  {
     "remote": "lsd",
     "repository": "android_device_oppo_msm8974-common",
     "target_path": "device/oppo/msm8974-common",
     "revision": "lollipop"
-  },
-  {
-    "remote": "cm",
-    "repository": "android_hardware_qcom_media",
-    "target_path": "hardware/qcom/media-caf/msm8974",
-    "revision": "cm-12.0-caf-8974"
   },
   {
     "remote": "tm",
@@ -52,6 +34,12 @@
     "repository": "proprietary_vendor_oppo",
     "target_path": "vendor/oppo",
     "revision": "lollipop"
+  },
+  {
+    "remote": "cm",
+    "repository": "android_device_qcom_sepolicy",
+    "target_path": "device/qcom/sepolicy",
+    "revision": "cm-12.0"
   },
   {
     "remote": "cm",
