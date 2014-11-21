@@ -1,9 +1,9 @@
 [
   {
-    "remote": "lsd",
-    "repository": "device_oppo_common",
+    "remote": "cm",
+    "repository": "android_device_oppo_common",
     "target_path": "device/oppo/common",
-    "revision": "lollipop"
+    "revision": "cm-12.0"
   },
   {
     "remote": "lsd",
@@ -18,10 +18,10 @@
     "revision": "cm-12.0"
   },
   {
-    "remote": "lsd",
+    "remote": "cm",
     "repository": "android_device_oppo_msm8974-common",
     "target_path": "device/oppo/msm8974-common",
-    "revision": "lollipop"
+    "revision": "cm-12.0"
   },
   {
     "remote": "tm",
@@ -30,15 +30,9 @@
     "revision": "cm-12.0"
   },
   {
-    "remote": "ls",
+    "remote": "tm",
     "repository": "proprietary_vendor_oppo",
     "target_path": "vendor/oppo",
-    "revision": "lollipop"
-  },
-  {
-    "remote": "cm",
-    "repository": "android_device_qcom_sepolicy",
-    "target_path": "device/qcom/sepolicy",
     "revision": "cm-12.0"
   },
   {
