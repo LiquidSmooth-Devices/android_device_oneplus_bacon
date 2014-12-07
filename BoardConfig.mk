@@ -24,8 +24,8 @@ BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=bacon use
 #TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.8-sm
 #TARGET_GCC_VERSION_AND := 4.8-sm
 
-# Enable ArchiDroid Optimizations
-USE_ARCH_OPTIMIZATIONS=true
+# LIQUID OPTIMIZATIONS
+LIQUIFY := true
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/oneplus/bacon/bluetooth
