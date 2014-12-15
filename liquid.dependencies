@@ -1,9 +1,9 @@
 [
   {
-    "remote": "cm",
-    "repository": "android_device_oppo_common",
+    "remote": "lsd",
+    "repository": "device_oppo_common",
     "target_path": "device/oppo/common",
-    "revision": "cm-12.0"
+    "revision": "lollipop"
   },
   {
     "remote": "lsd",
@@ -18,10 +18,10 @@
     "revision": "cm-12.0"
   },
   {
-    "remote": "cm",
+    "remote": "lsd",
     "repository": "android_device_oppo_msm8974-common",
     "target_path": "device/oppo/msm8974-common",
-    "revision": "cm-12.0"
+    "revision": "lollipop"
   },
   {
     "remote": "tm",
