@@ -1,11 +1,7 @@
 # Release name
 PRODUCT_RELEASE_NAME := bacon
 
-# Bacon does not get a special boot animation because it is not special.
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1080
-
-# Inherit some common Slim stuff.
+# Inherit some common stuff.
 $(call inherit-product, vendor/liquid/config/common_phone.mk)
 
 # Enhanced NFC
