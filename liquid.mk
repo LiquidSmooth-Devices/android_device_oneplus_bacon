@@ -14,6 +14,7 @@ $(call inherit-product, device/oneplus/bacon/full_bacon.mk)
 PRODUCT_DEVICE := bacon
 PRODUCT_NAME := liquid_bacon
 PRODUCT_BRAND := oneplus
+TARGET_VENDOR := oneplus
 PRODUCT_MODEL := A0001
 PRODUCT_MANUFACTURER := OnePlus
 
