@@ -3,37 +3,37 @@
     "remote": "lsd",
     "repository": "device_oppo_common",
     "target_path": "device/oppo/common",
-    "revision": "lollipop"
+    "revision": "5.1"
   },
   {
     "remote": "lsd",
     "repository": "kernel_oneplus_msm8974",
     "target_path": "kernel/oneplus/msm8974",
-    "revision": "lollipop"
+    "revision": "5.1"
   },
   {
     "remote": "cm",
     "repository": "android_device_qcom_common",
     "target_path": "device/qcom/common",
-    "revision": "cm-12.0"
+    "revision": "cm-12.1"
   },
   {
     "remote": "lsd",
     "repository": "android_device_oppo_msm8974-common",
     "target_path": "device/oppo/msm8974-common",
-    "revision": "lollipop"
+    "revision": "5.1"
   },
   {
     "remote": "tm",
     "repository": "proprietary_vendor_oneplus",
     "target_path": "vendor/oneplus",
-    "revision": "cm-12.0"
+    "revision": "cm-12.1"
   },
   {
     "remote": "tm",
     "repository": "proprietary_vendor_oppo",
     "target_path": "vendor/oppo",
-    "revision": "cm-12.0"
+    "revision": "cm-12.1"
   },
   {
     "remote": "cm",
